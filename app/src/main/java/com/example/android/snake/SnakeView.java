@@ -14,6 +14,14 @@
  * limitations under the License.
  */
 
+/*
+Name: Emmanuel Farrar
+Date: Feb 2020
+Title: IT4784 Adv Mobile App Dev: Snake Game
+Description: U01A1, Snake Game App. Project goal for U01A1 is to add sound as per guidelines
+            set in course.
+ */
+
 package com.example.android.snake;
 
 import java.util.ArrayList;

@@ -35,32 +35,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/snake/Snake.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24">
+            <state relative-caret-position="350">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding>
-                <element signature="e#0#2516#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/snake/SnakeView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6977">
-              <folding>
-                <element signature="e#0#16670#0" expanded="true" />
+                <element signature="e#0#2727#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/snake/SnakeView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="22" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/snake/TileView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <element signature="e#0#4763#0" expanded="true" />
+                <element signature="e#0#4974#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,12 +67,22 @@
       </file>
     </leaf>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/snake/SnakeView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/snake/Snake.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/android/snake/TileView.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="173" />
     <option name="y" value="6" />
     <option name="width" value="1592" />
     <option name="height" value="1032" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -203,7 +212,7 @@
       <window_info anchor="bottom" id="Logcat" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Android Profiler" />
       <window_info anchor="bottom" id="Find" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.32936078" />
@@ -220,30 +229,29 @@
     <entry file="file://$PROJECT_DIR$/import-summary.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/snake/SnakeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/snake/Snake.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
+        <state relative-caret-position="350">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding>
-            <element signature="e#0#2516#0" expanded="true" />
+            <element signature="e#0#2727#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/snake/TileView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="e#0#4763#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/android/snake/SnakeView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6977">
-          <folding>
-            <element signature="e#0#16670#0" expanded="true" />
+            <element signature="e#0#4974#0" expanded="true" />
           </folding>
         </state>
       </provider>
