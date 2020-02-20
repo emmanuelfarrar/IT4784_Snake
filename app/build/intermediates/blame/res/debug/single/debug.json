@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Mannie\\Documents\\GitHub\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\layout_snake_layout.xml.flat",
+        "source": "C:\\Users\\Mannie\\Documents\\GitHub\\IT4784_Snake\\app\\src\\main\\res\\layout\\snake_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Mannie\\Documents\\GitHub\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yellowstar.png.flat",
+        "source": "C:\\Users\\Mannie\\Documents\\GitHub\\IT4784_Snake\\app\\src\\main\\res\\drawable\\yellowstar.png"
+    },
+    {
+        "merged": "C:\\Users\\Mannie\\Documents\\GitHub\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\drawable_redstar.png.flat",
+        "source": "C:\\Users\\Mannie\\Documents\\GitHub\\IT4784_Snake\\app\\src\\main\\res\\drawable\\redstar.png"
+    },
+    {
+        "merged": "C:\\Users\\Mannie\\Documents\\GitHub\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\drawable_greenstar.png.flat",
+        "source": "C:\\Users\\Mannie\\Documents\\GitHub\\IT4784_Snake\\app\\src\\main\\res\\drawable\\greenstar.png"
+    }
+]
