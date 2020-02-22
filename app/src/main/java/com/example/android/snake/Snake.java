@@ -25,6 +25,11 @@ Description: U01A1, Snake Game App. Project goal for U01A1 is to add sound as pe
 package com.example.android.snake;
 
 import android.app.Activity;
+import android.media.AudioAttributes;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.media.SoundPool;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Window;
 import android.widget.TextView;
@@ -41,8 +46,16 @@ import android.widget.TextView;
 public class Snake extends Activity {
 
     private SnakeView mSnakeView;
-    
+
     private static String ICICLE_KEY = "snake-view";
+
+    /*
+    private SoundPlayer sound;
+
+    sound = new SoundPlayer;
+
+    */
+
 
     /**
      * Called when Activity is first created. Turns off the title bar, sets up
@@ -58,6 +71,7 @@ public class Snake extends Activity {
         mSnakeView = (SnakeView) findViewById(R.id.snake);
         mSnakeView.setTextView((TextView) findViewById(R.id.text));
 
+
         if (savedInstanceState == null) {
             // We were just launched -- set up a new game
             mSnakeView.setMode(SnakeView.READY);
@@ -70,6 +84,7 @@ public class Snake extends Activity {
                 mSnakeView.setMode(SnakeView.PAUSE);
             }
         }
+
     }
 
     @Override

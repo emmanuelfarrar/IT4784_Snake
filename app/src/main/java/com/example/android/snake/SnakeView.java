@@ -26,9 +26,13 @@ package com.example.android.snake;
 
 import java.util.ArrayList;
 import java.util.Random;
-
 import android.content.Context;
 import android.content.res.Resources;
+import android.media.AudioAttributes;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
+import android.media.SoundPool;
+import android.os.Build;
 import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
@@ -46,6 +50,7 @@ import android.widget.TextView;
 public class SnakeView extends TileView {
 
     private static final String TAG = "SnakeView";
+
 
     /**
      * Current mode of application: READY to run, RUNNING, or you have already
@@ -152,6 +157,7 @@ public class SnakeView extends TileView {
         loadTile(RED_STAR, r.getDrawable(R.drawable.redstar));
         loadTile(YELLOW_STAR, r.getDrawable(R.drawable.yellowstar));
         loadTile(GREEN_STAR, r.getDrawable(R.drawable.greenstar));
+
     	
     }
     
@@ -159,6 +165,7 @@ public class SnakeView extends TileView {
     private void initNewGame() {
         mSnakeTrail.clear();
         mAppleList.clear();
+
 
         // For now we're just going to load up a short default eastbound snake
         // that's just turned north
@@ -178,6 +185,7 @@ public class SnakeView extends TileView {
 
         mMoveDelay = 600;
         mScore = 0;
+
     }
 
 

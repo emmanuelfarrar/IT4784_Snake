@@ -1,4 +1,0 @@
-#Thu Feb 20 02:54:36 AST 2020
-base.0=C\:\\Users\\Mannie\\Documents\\GitHub\\IT4784_Snake\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
