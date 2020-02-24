@@ -1,0 +1,17 @@
+int attr tileSize 0x7f010000
+int drawable greenstar 0x7f020000
+int drawable redstar 0x7f020001
+int drawable yellowstar 0x7f020002
+int id snake 0x7f030000
+int id text 0x7f030001
+int layout snake_layout 0x7f040000
+int raw sound1 0x7f050000
+int raw sound2 0x7f050001
+int raw sound3 0x7f050002
+int string mode_lose_prefix 0x7f060000
+int string mode_lose_suffix 0x7f060001
+int string mode_pause 0x7f060002
+int string mode_ready 0x7f060003
+int string snake_layout_text_text 0x7f060004
+int[] styleable TileView { 0x7f010000 }
+int styleable TileView_tileSize 0

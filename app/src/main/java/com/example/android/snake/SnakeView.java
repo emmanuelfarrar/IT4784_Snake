@@ -28,11 +28,6 @@ import java.util.ArrayList;
 import java.util.Random;
 import android.content.Context;
 import android.content.res.Resources;
-import android.media.AudioAttributes;
-import android.media.AudioManager;
-import android.media.MediaPlayer;
-import android.media.SoundPool;
-import android.os.Build;
 import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
@@ -50,6 +45,12 @@ import android.widget.TextView;
 public class SnakeView extends TileView {
 
     private static final String TAG = "SnakeView";
+    //U01A1: Initialize Sound class
+    SoundPlayer sound;
+
+    public SoundPlayer getSound() {
+        return sound;
+    }
 
 
     /**
@@ -132,6 +133,7 @@ public class SnakeView extends TileView {
     };
 
 
+
     /**
      * Constructs a SnakeView based on inflation from XML
      * 
@@ -152,6 +154,9 @@ public class SnakeView extends TileView {
         setFocusable(true);
 
         Resources r = this.getContext().getResources();
+
+        //sound
+        sound = new SoundPlayer(getContext());      //sound
         
         resetTiles(4);
         loadTile(RED_STAR, r.getDrawable(R.drawable.redstar));
@@ -324,6 +329,7 @@ public class SnakeView extends TileView {
         }
 
         return super.onKeyDown(keyCode, msg);
+
     }
 
     /**
@@ -469,42 +475,54 @@ public class SnakeView extends TileView {
         switch (mDirection) {
         case EAST: {
             newHead = new Coordinate(head.x + 1, head.y);
+            sound.playMoveSound();
             break;
         }
         case WEST: {
             newHead = new Coordinate(head.x - 1, head.y);
+            sound.playMoveSound();
             break;
         }
         case NORTH: {
             newHead = new Coordinate(head.x, head.y - 1);
+            sound.playMoveSound();
             break;
         }
         case SOUTH: {
             newHead = new Coordinate(head.x, head.y + 1);
+            sound.playMoveSound();
             break;
         }
         }
 
-        // Collision detection
-        // For now we have a 1-square wall around the entire arena
+        /* Collision detection
+           For now we have a 1-square wall around the entire arena
+           UPDATE: U01A1 added sound as per the assignment requirements
+         */
         if ((newHead.x < 1) || (newHead.y < 1) || (newHead.x > mXTileCount - 2)
                 || (newHead.y > mYTileCount - 2)) {
+            sound.playHitsound();
             setMode(LOSE);
             return;
 
         }
 
-        // Look for collisions with itself
+        /* Look for collisions with itself
+            UPDATE: U01A1 added sound as per the assignment requirements
+         */
         int snakelength = mSnakeTrail.size();
         for (int snakeindex = 0; snakeindex < snakelength; snakeindex++) {
             Coordinate c = mSnakeTrail.get(snakeindex);
             if (c.equals(newHead)) {
+                sound.playHitsound();
                 setMode(LOSE);
                 return;
             }
         }
 
-        // Look for apples
+        /* Look for apples
+            UPDATE: U01A1 added sound as per the assignment requirements
+         */
         int applecount = mAppleList.size();
         for (int appleindex = 0; appleindex < applecount; appleindex++) {
             Coordinate c = mAppleList.get(appleindex);
@@ -516,6 +534,7 @@ public class SnakeView extends TileView {
                 mMoveDelay *= 0.9;
 
                 growSnake = true;
+                sound.playEatSound();
             }
         }
 

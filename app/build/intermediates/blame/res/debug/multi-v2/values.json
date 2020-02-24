@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\values\\attrs.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "2",
+                        "startOffsets": "706",
+                        "endLines": "19",
+                        "endColumns": "22",
+                        "endOffsets": "812"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "356",
+                        "endLines": "9",
+                        "endColumns": "22",
+                        "endOffsets": "459"
+                    }
+                },
+                {
+                    "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "19,20,18,17,22",
+                        "startColumns": "2,2,2,2,4",
+                        "startOffsets": "833,896,768,706,963",
+                        "endColumns": "61,61,63,60,51",
+                        "endOffsets": "892,955,829,764,1010"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,119,183,249,312",
+                        "endColumns": "63,63,65,62,43",
+                        "endOffsets": "114,178,244,307,351"
+                    }
+                }
+            ]
+        }
+    ]
+}

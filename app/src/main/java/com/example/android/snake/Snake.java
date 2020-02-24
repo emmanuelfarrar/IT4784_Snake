@@ -49,14 +49,6 @@ public class Snake extends Activity {
 
     private static String ICICLE_KEY = "snake-view";
 
-    /*
-    private SoundPlayer sound;
-
-    sound = new SoundPlayer;
-
-    */
-
-
     /**
      * Called when Activity is first created. Turns off the title bar, sets up
      * the content views, and fires up the SnakeView.
@@ -70,7 +62,6 @@ public class Snake extends Activity {
 
         mSnakeView = (SnakeView) findViewById(R.id.snake);
         mSnakeView.setTextView((TextView) findViewById(R.id.text));
-
 
         if (savedInstanceState == null) {
             // We were just launched -- set up a new game

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yellowstar.png.flat",
+        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\drawable\\yellowstar.png"
+    },
+    {
+        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\drawable_greenstar.png.flat",
+        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\drawable\\greenstar.png"
+    },
+    {
+        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound1.mp3.flat",
+        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\raw\\sound1.mp3"
+    },
+    {
+        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound2.mp3.flat",
+        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\raw\\sound2.mp3"
+    },
+    {
+        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound3.mp3.flat",
+        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\raw\\sound3.mp3"
+    },
+    {
+        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\layout_snake_layout.xml.flat",
+        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\layout\\snake_layout.xml"
+    },
+    {
+        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\drawable_redstar.png.flat",
+        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\drawable\\redstar.png"
+    }
+]

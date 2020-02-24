@@ -16,7 +16,7 @@ public class SoundPlayer {
         soundPool = new SoundPool (3, AudioManager.STREAM_MUSIC, 0);
 
         //loading the sounds; priority set to 1
-        //sound1 = soundPool.load(this, R.raw.sound1, 1);
+        sound1 = soundPool.load(context, R.raw.sound1, 1);
         sound2 = soundPool.load(context, R.raw.sound2, 1);
         sound3 = soundPool.load(context, R.raw.sound3, 1);
 
