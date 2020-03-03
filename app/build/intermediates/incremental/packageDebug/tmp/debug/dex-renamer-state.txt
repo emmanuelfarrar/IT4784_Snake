@@ -1,4 +1,4 @@
-#Sat Feb 29 06:55:33 AST 2020
-base.0=E\:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Tue Mar 03 05:08:45 AST 2020
+base.0=/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/dex/debug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

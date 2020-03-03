@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- U02A1: Added splashscreen-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/background" />
+    <item>
+        <bitmap android:src="@drawable/image1"
+            android:gravity="center" />
+    </item>
+
+</layer-list>

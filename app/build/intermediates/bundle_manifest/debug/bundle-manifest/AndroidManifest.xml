@@ -29,16 +29,19 @@
         android:label="Snake on a Phone"
         android:testOnly="true" >
         <activity
-            android:name="com.example.android.snake.Snake"
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait"
-            android:theme="@android:style/Theme.NoTitleBar" >
+            android:name="com.example.android.snake.SplashScreen"
+            android:theme="@style/SplashStyle" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.android.snake.Snake"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
     </application>
 
 </manifest>

@@ -1,30 +1,50 @@
 [
     {
-        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yellowstar.png.flat",
-        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\drawable\\yellowstar.png"
+        "merged": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/drawable_greenstar.png.flat",
+        "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/drawable/greenstar.png"
     },
     {
-        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\drawable_greenstar.png.flat",
-        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\drawable\\greenstar.png"
+        "merged": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/drawable_head_sprite_sheet.png.flat",
+        "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/drawable/head_sprite_sheet.png"
     },
     {
-        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound1.mp3.flat",
-        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\raw\\sound1.mp3"
+        "merged": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/raw_sound2.mp3.flat",
+        "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/raw/sound2.mp3"
     },
     {
-        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound2.mp3.flat",
-        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\raw\\sound2.mp3"
+        "merged": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/raw_sound1.mp3.flat",
+        "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/raw/sound1.mp3"
     },
     {
-        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound3.mp3.flat",
-        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\raw\\sound3.mp3"
+        "merged": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/drawable_redstar.png.flat",
+        "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/drawable/redstar.png"
     },
     {
-        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\layout_snake_layout.xml.flat",
-        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\layout\\snake_layout.xml"
+        "merged": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/drawable_tail_sprite_sheet.png.flat",
+        "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/drawable/tail_sprite_sheet.png"
     },
     {
-        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\build\\intermediates\\res\\merged\\debug\\drawable_redstar.png.flat",
-        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake\\app\\src\\main\\res\\drawable\\redstar.png"
+        "merged": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/drawable_splashscreen.xml.flat",
+        "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/drawable/splashscreen.xml"
+    },
+    {
+        "merged": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/raw_sound3.mp3.flat",
+        "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/raw/sound3.mp3"
+    },
+    {
+        "merged": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/drawable_apple.png.flat",
+        "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/drawable/apple.png"
+    },
+    {
+        "merged": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/layout_snake_layout.xml.flat",
+        "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/layout/snake_layout.xml"
+    },
+    {
+        "merged": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/drawable_yellowstar.png.flat",
+        "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/drawable/yellowstar.png"
+    },
+    {
+        "merged": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/drawable_image1.png.flat",
+        "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/drawable/image1.png"
     }
 ]

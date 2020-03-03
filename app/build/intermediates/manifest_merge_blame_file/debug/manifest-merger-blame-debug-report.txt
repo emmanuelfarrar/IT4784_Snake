@@ -25,32 +25,38 @@
 25    package="com.example.android.snake" >
 26
 27    <application
-27-->E:\DEV TOOLS\Repo\Github\IT4784_Snake\app\src\main\AndroidManifest.xml:24:5-34:19
+27-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:24:5-36:19
 28        android:debuggable="true"
 29        android:label="Snake on a Phone"
-29-->E:\DEV TOOLS\Repo\Github\IT4784_Snake\app\src\main\AndroidManifest.xml:24:18-50
+29-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:24:18-50
 30        android:testOnly="true" >
 31        <activity
-31-->E:\DEV TOOLS\Repo\Github\IT4784_Snake\app\src\main\AndroidManifest.xml:25:7-33:20
-32            android:name="com.example.android.snake.Snake"
-32-->E:\DEV TOOLS\Repo\Github\IT4784_Snake\app\src\main\AndroidManifest.xml:25:17-37
-33            android:configChanges="keyboardHidden|orientation"
-33-->E:\DEV TOOLS\Repo\Github\IT4784_Snake\app\src\main\AndroidManifest.xml:28:9-59
-34            android:screenOrientation="portrait"
-34-->E:\DEV TOOLS\Repo\Github\IT4784_Snake\app\src\main\AndroidManifest.xml:27:9-45
-35            android:theme="@android:style/Theme.NoTitleBar" >
-35-->E:\DEV TOOLS\Repo\Github\IT4784_Snake\app\src\main\AndroidManifest.xml:26:9-56
-36            <intent-filter>
-36-->E:\DEV TOOLS\Repo\Github\IT4784_Snake\app\src\main\AndroidManifest.xml:29:13-32:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->E:\DEV TOOLS\Repo\Github\IT4784_Snake\app\src\main\AndroidManifest.xml:30:17-69
-37-->E:\DEV TOOLS\Repo\Github\IT4784_Snake\app\src\main\AndroidManifest.xml:30:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->E:\DEV TOOLS\Repo\Github\IT4784_Snake\app\src\main\AndroidManifest.xml:31:17-77
-39-->E:\DEV TOOLS\Repo\Github\IT4784_Snake\app\src\main\AndroidManifest.xml:31:27-74
-40            </intent-filter>
-41        </activity>
-42    </application>
-43
-44</manifest>
+31-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:25:7-31:20
+32            android:name="com.example.android.snake.SplashScreen"
+32-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:25:17-45
+33            android:theme="@style/SplashStyle" >
+33-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:26:9-43
+34            <intent-filter>
+34-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:27:13-30:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:28:17-69
+35-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:28:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:29:17-77
+37-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:29:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:32:9-35:65
+41            android:name="com.example.android.snake.Snake"
+41-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:32:19-39
+42            android:configChanges="keyboardHidden|orientation"
+42-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:35:13-63
+43            android:screenOrientation="portrait"
+43-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:34:13-49
+44            android:theme="@android:style/Theme.NoTitleBar" />
+44-->/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:33:13-60
+45    </application>
+46
+47</manifest>
