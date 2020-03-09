@@ -37,6 +37,8 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
 
+import static android.bluetooth.BluetoothAssignedNumbers.APPLE;
+
 /**
  * SnakeView: implementation of a simple game of Snake
  * 
@@ -80,6 +82,11 @@ public class SnakeView extends TileView {
     private static final int RED_STAR = 1;
     private static final int YELLOW_STAR = 2;
     private static final int GREEN_STAR = 3;
+    private static final int APPLE = 4;
+    private static final int TAIL = 5;
+    public static final int HEAD = 6;
+    public static final int ROCK = 7;
+
 
     /**
      * mScore: used to track the number of apples captured mMoveDelay: number of
@@ -158,12 +165,18 @@ public class SnakeView extends TileView {
         //sound
         sound = new SoundPlayer(getContext());      //sound
         
-        resetTiles(4);
-        loadTile(RED_STAR, r.getDrawable(R.drawable.redstar));
+        resetTiles(8);      //U02A1: had to change the count from 4 to 5/6 <- Look into this more
+        /*
+        U02A1: Added APPLE, HEAD,TAIL, ROCK images to apply. APPLE and ROCK will stay in use, HEAD and TAIL will be replaced by Sprites
+        U02A1: Unable to properly apply sprites so keeping images until this can be resolved.
+         */
+        loadTile(RED_STAR, r.getDrawable(R.drawable.redstar));;
         loadTile(YELLOW_STAR, r.getDrawable(R.drawable.yellowstar));
         loadTile(GREEN_STAR, r.getDrawable(R.drawable.greenstar));
-
-    	
+        loadTile(APPLE, r.getDrawable(R.drawable.apple));
+        loadTile(HEAD, r.getDrawable(R.drawable.head));
+        loadTile(TAIL, r.getDrawable(R.drawable.tail));
+        loadTile(ROCK, r.getDrawable(R.drawable.rock));
     }
     
 
@@ -435,14 +448,15 @@ public class SnakeView extends TileView {
      * Draws some walls.
      * 
      */
+    //U02A1: Replaced GREEN_STAR with ROCK
     private void updateWalls() {
         for (int x = 0; x < mXTileCount; x++) {
-            setTile(GREEN_STAR, x, 0);
-            setTile(GREEN_STAR, x, mYTileCount - 1);
+            setTile(ROCK, x, 0);
+            setTile(ROCK, x, mYTileCount - 1);
         }
         for (int y = 1; y < mYTileCount - 1; y++) {
-            setTile(GREEN_STAR, 0, y);
-            setTile(GREEN_STAR, mXTileCount - 1, y);
+            setTile(ROCK, 0, y);
+            setTile(ROCK, mXTileCount - 1, y);
         }
     }
 
@@ -452,7 +466,7 @@ public class SnakeView extends TileView {
      */
     private void updateApples() {
         for (Coordinate c : mAppleList) {
-            setTile(YELLOW_STAR, c.x, c.y);
+            setTile(APPLE, c.x, c.y);
         }
     }
 
@@ -546,14 +560,20 @@ public class SnakeView extends TileView {
         }
 
         int index = 0;
+
+        //U02A1: mod else/if to separate the body and tail
         for (Coordinate c : mSnakeTrail) {
             if (index == 0) {
-                setTile(YELLOW_STAR, c.x, c.y);
+                setTile(HEAD, c.x, c.y);
+            } else if (index == mSnakeTrail.size() -1){
+                setTile(TAIL, c.x, c.y);
+                //snakeTail.onDraw();
             } else {
                 setTile(RED_STAR, c.x, c.y);
             }
             index++;
         }
+
 
     }
 

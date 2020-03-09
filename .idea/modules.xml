@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/IT4784_Snake.iml" filepath="$PROJECT_DIR$/IT4784_Snake.iml" group="IT4784_Snake" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="IT4784_Snake/app" />
+      <module fileurl="file://$PROJECT_DIR$/IT4784_Snake_U02A1.iml" filepath="$PROJECT_DIR$/IT4784_Snake_U02A1.iml" group="IT4784_Snake_U02A1" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="IT4784_Snake_U02A1/app" />
     </modules>
   </component>
 </project>

@@ -10,6 +10,6 @@ public class SplashScreen extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        startActivity(new Intent(this, Snake.class));
+        startActivity(new Intent(this, Snake.class));       //starts the splash screen and then calls the Snake.class
     }
 }

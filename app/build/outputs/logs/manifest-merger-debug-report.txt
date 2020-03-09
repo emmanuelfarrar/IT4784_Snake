@@ -1,41 +1,41 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:22:1-37:12
-INJECTED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:22:1-37:12
-INJECTED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:22:1-37:12
+ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:22:1-37:12
+INJECTED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:22:1-37:12
+INJECTED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:22:1-37:12
 	package
-		ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:23:5-40
-		INJECTED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml
+		ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:23:5-40
+		INJECTED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml
+		INJECTED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:22:11-69
+		ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:22:11-69
 application
-ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:24:5-36:19
+ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:24:5-36:19
 	android:label
-		ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:24:18-50
+		ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:24:18-50
 activity#com.example.android.snake.SplashScreen
-ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:25:7-31:20
+ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:25:7-31:20
 	android:theme
-		ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:26:9-43
+		ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:26:9-43
 	android:name
-		ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:25:17-45
+		ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:25:17-45
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:27:13-30:29
+ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:28:17-69
+ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:29:17-77
+ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:29:27-74
+		ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.example.android.snake.Snake
-ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:32:9-35:65
+ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:32:9-35:65
 	android:screenOrientation
-		ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:34:13-49
+		ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:34:13-49
 	android:configChanges
-		ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:35:13-63
+		ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:35:13-63
 	android:theme
-		ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:33:13-60
+		ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:33:13-60
 	android:name
-		ADDED from /Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/AndroidManifest.xml:32:19-39
+		ADDED from E:\DEV TOOLS\Repo\Github\IT4784_Snake_U02A1\app\src\main\AndroidManifest.xml:32:19-39

@@ -1,14 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/values/strings.xml",
+                    "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1"
+                        "startLines": "19,20,18,17,22",
+                        "startColumns": "2,2,2,2,4",
+                        "startOffsets": "833,896,768,706,963",
+                        "endColumns": "61,61,63,60,51",
+                        "endOffsets": "892,955,829,764,1010"
                     },
                     "to": {
                         "startLines": "3,4,5,6,7",
@@ -19,14 +21,14 @@
                     }
                 },
                 {
-                    "source": "/Users/emmanuelfarrar/Documents/GitHub/IT4784_Snake/app/src/main/res/values/color.xml",
+                    "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\values\\color.xml",
                     "from": {
-                        "startLines": "-1,4",
-                        "startColumns": "-1,4",
-                        "startOffsets": "-1,103",
-                        "endLines": "-1,6",
-                        "endColumns": "-1,12",
-                        "endOffsets": "-1,259"
+                        "startLines": "2,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "57,107",
+                        "endLines": "2,6",
+                        "endColumns": "46,12",
+                        "endOffsets": "99,265"
                     },
                     "to": {
                         "startLines": "2,8",
@@ -35,6 +37,25 @@
                         "endLines": "2,10",
                         "endColumns": "46,12",
                         "endOffsets": "97,559"
+                    }
+                },
+                {
+                    "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\values\\attrs.xml",
+                    "from": {
+                        "startLines": "17",
+                        "startColumns": "2",
+                        "startOffsets": "706",
+                        "endLines": "19",
+                        "endColumns": "22",
+                        "endOffsets": "812"
+                    },
+                    "to": {
+                        "startLines": "11",
+                        "startColumns": "4",
+                        "startOffsets": "564",
+                        "endLines": "13",
+                        "endColumns": "22",
+                        "endOffsets": "667"
                     }
                 }
             ]
