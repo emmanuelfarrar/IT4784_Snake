@@ -4,12 +4,12 @@
         "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\drawable\\apple.png"
     },
     {
-        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_greenstar.png.flat",
-        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\drawable\\greenstar.png"
-    },
-    {
         "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rock.png.flat",
         "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\drawable\\rock.png"
+    },
+    {
+        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_greenstar.png.flat",
+        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\drawable\\greenstar.png"
     },
     {
         "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_headspritesheet.png.flat",
@@ -32,32 +32,32 @@
         "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\layout\\snake_layout.xml"
     },
     {
-        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound1.mp3.flat",
-        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\raw\\sound1.mp3"
-    },
-    {
         "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_head.png.flat",
         "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\drawable\\head.png"
     },
     {
-        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound2.mp3.flat",
-        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\raw\\sound2.mp3"
+        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound1.mp3.flat",
+        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\raw\\sound1.mp3"
     },
     {
         "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image1.png.flat",
         "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\drawable\\image1.png"
     },
     {
+        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound2.mp3.flat",
+        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\raw\\sound2.mp3"
+    },
+    {
         "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashscreen.xml.flat",
         "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\drawable\\splashscreen.xml"
     },
     {
-        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound3.mp3.flat",
-        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\raw\\sound3.mp3"
-    },
-    {
         "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_redstar.png.flat",
         "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\drawable\\redstar.png"
+    },
+    {
+        "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\raw_sound3.mp3.flat",
+        "source": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\src\\main\\res\\raw\\sound3.mp3"
     },
     {
         "merged": "E:\\DEV TOOLS\\Repo\\Github\\IT4784_Snake_U02A1\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tailspritesheet.png.flat",
