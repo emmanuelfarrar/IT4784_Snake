@@ -49,6 +49,10 @@ public class Snake extends Activity {
 
     private static String ICICLE_KEY = "snake-view";
 
+    //U03A1: generating DBHelper object
+    private SnakeDBHelper dbHelper;
+
+
     /**
      * Called when Activity is first created. Turns off the title bar, sets up
      * the content views, and fires up the SnakeView.
@@ -59,6 +63,9 @@ public class Snake extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.snake_layout);
+
+        //U03A1: Instantiate DBHelper
+        dbHelper = new SnakeDBHelper(this);
 
         mSnakeView = (SnakeView) findViewById(R.id.snake);
         mSnakeView.setTextView((TextView) findViewById(R.id.text));
